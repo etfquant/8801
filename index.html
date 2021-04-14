@@ -1,141 +1,34 @@
-
-#Project website <br><br><br>
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<meta http-equiv="x-ua-compatible" content="ie=edge">
-<title>My Spoon</title>
+    <meta charset="UTF-8">
+    <meta name="viewpoint" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="gamestyle.css" rel="stylesheet">
 
-<!-- CSS -->
-<style>
-.myForm {
-font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
-font-size: 0.8em;
-width: 30em;
-padding: 1em;
-border: 1px solid #ccc;
-}
+    <script defer src="thespoon.js"></script>
 
-.myForm * {
-box-sizing: border-box;
-}
 
-.myForm fieldset {
-border: none;
-padding: 0;
-}
-
-.myForm legend,
-.myForm label {
-padding: 0;
-font-weight: bold;
-}
-
-.myForm label.choice {
-font-size: 0.9em;
-font-weight: normal;
-}
-
-.myForm label {
-text-align: left;
-display: block;
-}
-
-.myForm input[type="text"],
-.myForm input[type="tel"],
-.myForm input[type="email"],
-.myForm input[type="datetime-local"],
-.myForm select,
-.myForm textarea {
-float: right;
-width: 60%;
-border: 1px solid #ccc;
-font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
-font-size: 0.9em;
-padding: 0.3em;
-}
-
-.myForm textarea {
-height: 100px;
-}
-
-.myForm input[type="radio"],
-.myForm input[type="checkbox"] {
-margin-left: 40%;
-}
-
-.myForm button {
-padding: 1em;
-border-radius: 0.5em;
-background: #eee;
-border: none;
-font-weight: bold;
-margin-left: 40%;
-margin-top: 1.8em;
-}
-
-.myForm button:hover {
-background: #ccc;
-cursor: pointer;
-}
-</style>
-
+    <title>The Spoon</title>
 </head>
+
 <body>
-
-<form class="myForm" method="get" enctype="application/x-www-form-urlencoded" action="/html/codes/html_form_handler.cfm">
-
-  <b>Set Up Your Life</b><br><br>
-<p>
-<label>Alias
-<input type="text" name="player_name" required>
-</label> 
-</p>
-
-<p>
-<label>Age
-<select id="age" name="age">
-<option value="" selected="selected">Select---</option>
-<option value="agegroup1" > Under 19 </option>
-<option value="agegroup2" > 19 ~ 30 </option>
-<option value="agegroup2" > 31 ~ 50 </option>
-<option value="agegroup2" > 51 ~ 70 </option>
-<option value="agegroup2" > Over 70 </option>
-</select>
-</label> 
-</p>
-  
-<p>
-<label>Sex
-<select id="sex" name="sex">
-<option value="" selected="selected">Select---</option>
-<option value="male" >Male</option>
-<option value="female" >Female</option>
-</select>
-</label> 
-</p>
-
-<p>
-<label>Spoon Type
-<select id="spoon" name="spoon">
-<option value="" selected="selected">Select---</option>
-<option value="diamond" >Diamond Spoon</option>
-<option value="gold" >Gold Spoon</option>
-<option value="silver" >Silver Spoon</option>
-<option value="dirt" >Dirt Spoon</option>
-</select>
-</label> 
-</p>
-  
-<p>
-
-
-<p><button>Submit</button></p>
-
-</form>
+<div class="container">
+    <div id="text">Text</div>
+    <div id="option-buttons" class="btn-grid">
+        <button class="btn">Option 1</button>
+        <button class="btn">Option 2</button>
+        <button class="btn">Option 3</button>
+        <button class="btn">Option 4</button>
+    </div>
+</div>
 
 </body>
+
+
 </html>
+
+
+
+
+
