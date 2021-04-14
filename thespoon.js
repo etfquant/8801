@@ -42,7 +42,7 @@ function selectOption(option) {
 const textNodes = [
     {
         id: 1,
-        text: 'Today is 1 April 2020. the digital asset market is collapsing massively. The current Bitcoin price is $10,000. What would you do?',
+        text: 'Today is 1 Feb 2018. the digital asset market is collapsing massively. The current Bitcoin price is $10,000. What would you do?',
         options: [
             {
                 text: 'Buy Bitcoin.',
